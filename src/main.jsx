@@ -1,21 +1,19 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import ReactDOM from "react-dom/client";
 // import Intro from './Intro.jsx'
 // import PropsYEstilos from './PropsYEstilos.jsx'
 // import Ternary from './Ternary'
 // import Lists from './Lists'
 // import State from './State'
+// import Counter from './Counter'
+// import Text from './components/Text'
+// import Effect from "./Effect";
+// import ApiConsume from "./ApiConsume";
+import AgePredict from "./ApiConsume/AgePredict";
 
-import './index.css'
-import Counter from './Counter'
+import "./index.css";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    {/* <Intro /> */}
-    {/* <PropsYEstilos /> */}
-    {/* <Ternary /> */}
-    {/* <Lists /> */}
-    {/* <State /> */}
-    <Counter />
-  </React.StrictMode>,
-)
+ReactDOM.createRoot(document.getElementById("root")).render(
+  // <React.StrictMode>
+  <AgePredict />
+  // </React.StrictMode>
+);

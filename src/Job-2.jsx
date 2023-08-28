@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import jobStyles from './styles/Job.module.css'
 
 function Job(props) {
